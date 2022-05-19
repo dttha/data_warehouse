@@ -91,12 +91,11 @@ export default function ManagePage() {
                 <Content
                     className="site-layout-background"
                     style={{
-                        margin: '24px 16px',
                         padding: 24,
                         minHeight: 280,
                     }}
                 >
-                    <Table columns={columns} dataSource={data} size="middle" />
+                    <Table bordered pagination={false} columns={columns} dataSource={data} size="middle" />
                 </Content>
             </Layout>
         </Layout>
