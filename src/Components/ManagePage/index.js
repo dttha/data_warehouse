@@ -50,12 +50,15 @@ export default function ManagePage() {
                 <Content
                     className="site-layout-background"
                     style={{
-                        margin: '24px 16px',
                         padding: 24,
                         minHeight: 280,
                     }}
                 >
+<<<<<<< HEAD
                     <PivotViewComponent id='PivotView' height={350} dataSourceSettings={dataSourceSettings} showFieldList={true}><Inject services={[FieldList]} /></PivotViewComponent>
+=======
+                    <Table bordered pagination={false} columns={columns} dataSource={data} size="middle" />
+>>>>>>> a4b0939933aa927550a6d2013f319f1bd564b973
                 </Content>
             </Layout>
         </Layout>
